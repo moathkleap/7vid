@@ -1,0 +1,12 @@
+{
+  "id": "tpl-presentation",
+  "name": "Presentation",
+  "nameAr": "عرض تقديمي",
+  "category": "presentation",
+  "description": "16:9 presentation sequence for slides and voice-over.",
+  "descriptionAr": "تسلسل عرض تقديمي 16:9 للشرائح والتعليق الصوتي.",
+  "platformPreset": "presentation",
+  "settings": { "width": 1920, "height": 1080, "fps": 30, "aspectPreset": "16:9" },
+  "subtitleStyle": { "fontSize": 40, "position": "bottom", "outlineWidth": 2 },
+  "exportPresetId": "high-quality"
+}

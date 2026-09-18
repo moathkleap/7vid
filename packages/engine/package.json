@@ -1,0 +1,31 @@
+{
+  "name": "@sevenvid/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Node engine: database, projects, tasks, media/FFmpeg, AI orchestration, providers, export, validation, logging",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./devbridge": "./src/devbridge/main.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sevenvid/core": "workspace:*",
+    "@sevenvid/ipc": "workspace:*",
+    "immer": "^10.1.1",
+    "pino": "^10.3.0",
+    "systeminformation": "^5.27.0",
+    "tesseract.js": "^7.0.0",
+    "ulid": "^3.0.0",
+    "ws": "^8.18.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.0"
+  }
+}

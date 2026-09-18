@@ -1,0 +1,12 @@
+{
+  "id": "tpl-reels",
+  "name": "Instagram Reels",
+  "nameAr": "ريلز إنستغرام",
+  "category": "reels",
+  "description": "Vertical 9:16 Reels sequence with captions kept above the Instagram overlay area.",
+  "descriptionAr": "تسلسل ريلز عمودي 9:16 مع ترجمات فوق منطقة واجهة إنستغرام.",
+  "platformPreset": "reels",
+  "settings": { "width": 1080, "height": 1920, "fps": 30, "aspectPreset": "9:16" },
+  "subtitleStyle": { "fontSize": 54, "position": "bottom", "outlineWidth": 3, "bold": true, "marginV": 380 },
+  "exportPresetId": "instagram-reels"
+}

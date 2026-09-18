@@ -1,0 +1,12 @@
+{
+  "id": "tpl-shorts",
+  "name": "YouTube Shorts",
+  "nameAr": "يوتيوب شورتس",
+  "category": "shorts",
+  "description": "Vertical 9:16 sequence with large centered captions for short-form content.",
+  "descriptionAr": "تسلسل عمودي 9:16 مع ترجمات كبيرة في المنتصف للمحتوى القصير.",
+  "platformPreset": "shorts",
+  "settings": { "width": 1080, "height": 1920, "fps": 30, "aspectPreset": "9:16" },
+  "subtitleStyle": { "fontSize": 60, "position": "center", "outlineWidth": 3, "bold": true },
+  "exportPresetId": "youtube-shorts"
+}

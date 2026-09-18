@@ -1,0 +1,14 @@
+{
+  "id": "tpl-ad",
+  "name": "Advertisement (30s)",
+  "nameAr": "إعلان (30 ثانية)",
+  "category": "ads",
+  "description": "16:9 commercial layout: hook, product, proof, call to action. Target duration 30 seconds.",
+  "descriptionAr": "تخطيط إعلاني 16:9: جذب، المنتج، إثبات، دعوة للإجراء. المدة المستهدفة 30 ثانية.",
+  "platformPreset": "youtube",
+  "settings": { "width": 1920, "height": 1080, "fps": 30, "aspectPreset": "16:9" },
+  "targetDurationMs": 30000,
+  "structure": ["hook", "product", "proof", "cta"],
+  "subtitleStyle": { "fontSize": 44, "position": "bottom", "outlineWidth": 2, "bold": true },
+  "exportPresetId": "high-quality"
+}

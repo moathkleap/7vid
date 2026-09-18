@@ -1,0 +1,12 @@
+{
+  "id": "tpl-social-square",
+  "name": "Social Media (1:1)",
+  "nameAr": "سوشيال ميديا (1:1)",
+  "category": "social",
+  "description": "Square 1:1 sequence for feed posts.",
+  "descriptionAr": "تسلسل مربع 1:1 لمنشورات الخلاصة.",
+  "platformPreset": "instagram-post",
+  "settings": { "width": 1080, "height": 1080, "fps": 30, "aspectPreset": "1:1" },
+  "subtitleStyle": { "fontSize": 48, "position": "bottom", "outlineWidth": 2, "bold": true },
+  "exportPresetId": "instagram-post"
+}

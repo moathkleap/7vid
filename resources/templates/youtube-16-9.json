@@ -1,0 +1,12 @@
+{
+  "id": "tpl-youtube",
+  "name": "YouTube Video",
+  "nameAr": "فيديو يوتيوب",
+  "category": "youtube",
+  "description": "1080p 16:9 landscape sequence with a clean subtitle style and the YouTube export preset.",
+  "descriptionAr": "تسلسل أفقي 16:9 بدقة 1080p مع نمط ترجمة نظيف وإعداد تصدير يوتيوب.",
+  "platformPreset": "youtube",
+  "settings": { "width": 1920, "height": 1080, "fps": 30, "aspectPreset": "16:9" },
+  "subtitleStyle": { "fontSize": 42, "position": "bottom", "outlineWidth": 2 },
+  "exportPresetId": "youtube-1080p"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "sevenvid-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "7vid \u2014 local-first AI video editor and AI video creator desktop application",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @sevenvid/desktop dev",
+    "dev:browser": "tsx scripts/dev-browser.ts",
+    "devbridge": "tsx packages/engine/src/devbridge/main.ts",
+    "build": "pnpm --filter @sevenvid/desktop build",
+    "typecheck": "pnpm -r --parallel typecheck",
+    "lint": "eslint \"apps/**/*.{ts,tsx}\" \"packages/**/*.ts\" \"tests/**/*.ts\" \"scripts/**/*.ts\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:py": "ai-worker/.venv/bin/python -m pytest ai-worker/tests -q",
+    "test:e2e": "playwright test -c tests/playwright.config.ts",
+    "test:e2e:electron": "playwright test -c tests/playwright.electron.config.ts",
+    "fixtures": "tsx scripts/gen-fixtures.ts",
+    "verify:models": "tsx scripts/verify-models.ts",
+    "audit:ui": "tsx scripts/audit-ui.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "1.56.1",
+    "@types/node": "^22.19.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "prettier": "^3.6.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.0",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^4.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sevenvid-worker"
+version = "0.1.0"
+description = "7vid local AI worker: vision, speech and generation capabilities over JSON-RPC (stdio)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+vision = ["opencv-contrib-python-headless>=4.9", "mediapipe>=0.10", "onnxruntime>=1.17"]
+audio = ["onnxruntime>=1.17", "soundfile>=0.12", "scipy>=1.11", "noisereduce>=3.0", "pyloudnorm>=0.1"]
+stt = ["faster-whisper>=1.0"]
+tts = ["piper-tts>=1.2", "espeakng-loader>=0.2"]
+upscale = ["realesrgan-ncnn-py>=2.0"]
+gen = ["torch>=2.1", "diffusers>=0.27", "transformers>=4.38", "accelerate>=0.27", "safetensors>=0.4"]
+test = ["pytest>=8", "scikit-image>=0.22", "pillow>=10", "arabic-reshaper>=3", "python-bidi>=0.4"]
+
+[project.scripts]
+sevenvid-worker = "sevenvid_worker.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sevenvid_worker*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

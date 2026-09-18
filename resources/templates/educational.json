@@ -1,0 +1,12 @@
+{
+  "id": "tpl-educational",
+  "name": "Educational",
+  "nameAr": "تعليمي",
+  "category": "educational",
+  "description": "16:9 lesson layout with readable captions and 25 fps for screen recordings.",
+  "descriptionAr": "تخطيط درس 16:9 مع ترجمات مقروءة و25 إطاراً في الثانية لتسجيلات الشاشة.",
+  "platformPreset": "youtube",
+  "settings": { "width": 1920, "height": 1080, "fps": 25, "aspectPreset": "16:9" },
+  "subtitleStyle": { "fontSize": 40, "position": "bottom", "outlineWidth": 2 },
+  "exportPresetId": "youtube-1080p"
+}

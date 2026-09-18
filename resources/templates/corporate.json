@@ -1,0 +1,12 @@
+{
+  "id": "tpl-corporate",
+  "name": "Corporate",
+  "nameAr": "شركات",
+  "category": "corporate",
+  "description": "Clean 16:9 corporate sequence with restrained captions and a high-quality export preset.",
+  "descriptionAr": "تسلسل شركات نظيف 16:9 مع ترجمات هادئة وإعداد تصدير عالي الجودة.",
+  "platformPreset": "presentation",
+  "settings": { "width": 1920, "height": 1080, "fps": 30, "aspectPreset": "16:9" },
+  "subtitleStyle": { "fontSize": 38, "position": "bottom", "outlineWidth": 1 },
+  "exportPresetId": "high-quality"
+}

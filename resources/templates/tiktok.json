@@ -1,0 +1,12 @@
+{
+  "id": "tpl-tiktok",
+  "name": "TikTok",
+  "nameAr": "تيك توك",
+  "category": "tiktok",
+  "description": "Vertical 9:16 TikTok sequence, bold captions, safe margins for the TikTok interface.",
+  "descriptionAr": "تسلسل تيك توك عمودي 9:16 مع ترجمات بارزة وهوامش آمنة لواجهة تيك توك.",
+  "platformPreset": "tiktok",
+  "settings": { "width": 1080, "height": 1920, "fps": 30, "aspectPreset": "9:16" },
+  "subtitleStyle": { "fontSize": 56, "position": "center", "outlineWidth": 3, "bold": true, "marginV": 320 },
+  "exportPresetId": "tiktok"
+}

@@ -1,0 +1,7 @@
+node_modules
+dist
+out
+pnpm-lock.yaml
+.sevenvid-dev
+ai-worker/.venv
+tests/fixtures/generated
